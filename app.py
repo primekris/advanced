@@ -60,7 +60,7 @@ def predict_liver_disease(data):
 st.title("Health Disease Prediction App")
 
 # Select Prediction Model
-model_choice = st.selectbox("Select Prediction Model", ["Heart Disease Prediction","Kidney Disease Prediction","Hypertension Risk Prediction","Diabetes Outcome Prediction","Liver Disease Prediction"])
+model_choice = st.selectbox("Select Prediction Model", ["Heart Disease Prediction","Liver Disease Prediction"])
 
 # Input fields for Heart Disease Prediction
 if model_choice == "Heart Disease Prediction":
