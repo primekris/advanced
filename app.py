@@ -116,3 +116,8 @@ elif model_choice == "Liver Disease Prediction":
                 st.error(f"Prediction: Liver Disease detected with probability {prob:.2f}")
             else:
                 st.success(f"Prediction: No Liver Disease detected with probability {prob:.2f}")
+
+
+
+
+# KRISHNA 
